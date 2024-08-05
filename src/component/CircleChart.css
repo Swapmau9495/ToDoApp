@@ -1,0 +1,17 @@
+/* styles.css or relevant CSS file */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+    height: auto; /* Height will adjust automatically */
+    padding: 20px; /* Optional padding */
+  }
+  
+  .circle-chart {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    max-width: 400px; /* Maximum width */
+    max-height: 400px; /* Maximum height */
+  }
+  

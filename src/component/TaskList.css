@@ -1,0 +1,23 @@
+
+.mt-4 {
+  margin-top: 1.5rem; /* Bootstrap's spacing utility for margin-top */
+}
+
+
+/* src/components/TaskList.css */
+.task-list {
+  background-color: white;
+  color: black;
+}
+
+.task-list-dark {
+  background-color: #444;
+  color: white;
+}
+
+/* Add styles for completed tasks */
+.completed-task {
+  text-decoration: line-through;
+}
+
+/* Add more styles as needed */

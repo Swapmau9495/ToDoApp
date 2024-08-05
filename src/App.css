@@ -1,0 +1,51 @@
+/* src/App.css */
+.main-content {
+  padding: 20px;
+  background-color: #f8f9fa; /* or any color that fits your design */
+  border-left: 1px solid #dee2e6; /* optional border */
+}
+
+body.dark-mode {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Default text color */
+}
+
+.input-dark-mode {
+  background-color: #333; /* Dark background color */
+  color: #ffffff; /* Default text color */
+  padding: 20px;
+  border-left: 1px solid black;
+}
+.dark-mode {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Default text color */
+}
+
+.sidebar.dark {
+  background-color: #1e1e1e; /* Sidebar background color */
+  color: #ffffff; /* Sidebar text color */
+}
+
+/* Update all text elements to white in dark mode */
+body.dark-mode, 
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6, 
+body.dark-mode p,
+body.dark-mode .text {
+  color: #ffffff; /* White text color */
+}
+
+/* General styles for light mode */
+body.light-mode {
+  background-color: #ffffff; /* Light background color */
+  color: #000000; /* Default text color */
+}
+
+.sidebar.light {
+  background-color: #ffffff; /* Sidebar background color */
+  color: #000000; /* Sidebar text color */
+}
